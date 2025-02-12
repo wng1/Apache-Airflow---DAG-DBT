@@ -19,5 +19,6 @@ final as (
     vendorID,
     purchase_date;
 )
+'Returns the Final Output'
 select * from final
 
