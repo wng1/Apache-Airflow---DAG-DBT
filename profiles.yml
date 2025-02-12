@@ -1,0 +1,17 @@
+config:
+  partial_parse: true
+nyc_taxi_green:
+  target: fabric-dev
+  outputs:
+    fabric-dev:
+      type: fabric
+      driver: "ODBC Driver 18 for SQL Server"
+      server: SERVER
+      port: PORT
+      database: DATABASE
+      schema: SCHEMA
+      threads: THREADS
+      authentication: ServicePrincipal
+      tenant_id: TENANT_ID
+      client_id: CLIENT_ID
+      client_secret: CLIENT_SECRET
