@@ -1,0 +1,18 @@
+Azure Databrick > Workflows > Create Job > New >
+
+Task Name: _________________
+Type: dbt
+Source: Git Provider
+
+Git Repository URL: https://github.com/wng1/Apache-Airflow---DAG-DBT.git
+Git provider: Github
+Git reference: main
+branch
+
+dbt commands: 
+1) dbt ____
+2) dbt seed
+3) dbt run
+
+Dependent libraries: dbt-databricks==1.2.0
+
