@@ -16,3 +16,10 @@ dbt commands:
 
 Dependent libraries: dbt-databricks==1.2.0
 
+
+dbt connection
+
+dbt init test_demo
+cd test_demo
+dbt debug
+
