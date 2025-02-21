@@ -12,8 +12,9 @@ DECLARE @END_DATE DATE = '_________________';
 BEGIN TRY
   -- Initiate the SQL code
 
-
-
+SELECT UserID
+FROM logs
+GROUP BY UserID
 
 
 END TRY
