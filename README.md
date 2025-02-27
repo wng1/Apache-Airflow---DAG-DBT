@@ -25,3 +25,5 @@ dbt init test_demo
 cd test_demo
 dbt debug
 
+
+Localhost: https://127:0:0:1/#!/overview
