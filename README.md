@@ -13,8 +13,8 @@ dbt commands:
 1) dbt ____
 2) dbt seed
 3) dbt run
-4) dbt doc generate
-5) dbt doc serve
+4) dbt docs generate
+5) dbt docs serve
 
 Dependent libraries: dbt-databricks==1.2.0
 
