@@ -1,0 +1,8 @@
+git config --global user.name "__________________"
+git config --global user.email "_________________"
+git add .
+git commit -m "_____________________________"
+git -c http.extraheader="AUTHORIZATION: bearer $(System.AccessToken)" push origin target
+displayName: Push target folder to Git
+
+
