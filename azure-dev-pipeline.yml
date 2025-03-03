@@ -1,3 +1,15 @@
+- script: |
+	pip install dbt
+	pip install “dbt-spark[PyHive]”
+	export PATH=$PATH:/home/container/.local/bin
+	dbt compile
+	dbt seed
+	dbt run
+	dbt test
+	dbt docs generate
+displayName: ‘Compile, Test, and Run’
+
+
 git config --global user.name "__________________"
 git config --global user.email "_________________"
 git add .
